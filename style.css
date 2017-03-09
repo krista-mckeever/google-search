@@ -1,3 +1,6 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
 li {
   font-family: sans-serif;
   font-size: 13px;
@@ -20,6 +23,7 @@ footer {
   bottom: 0px;
   width: 100%;
   padding: 15px;
+
 }
 ul {
   padding-left: 150px;
@@ -55,4 +59,36 @@ form {
 .choose {
   border-bottom: 1px solid #cecece;
   padding-bottom: 15px;
+}
+.center {
+  margin-left: 165px;
+  margin-right: 450px;
+}
+.green {
+  color: #00663a;
+  font-size: 15px;
+}
+.paragraph {
+  margin-top: 20px;
+}
+a:visited {
+  color: #660099;
+}
+a {
+  color: black;
+}
+.link {
+  font-size: 18px;
+  color: #660099;
+}
+.darkText, .date {
+  font-size: 14px;
+  color: #545664;
+}
+.zero {
+  color: #818486
+  font-size: 10px;
+}
+.footer {
+  position: absolute;
 }
