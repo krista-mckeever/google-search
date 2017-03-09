@@ -7,6 +7,7 @@ li {
   margin: 0 10px;
   display: inline;
   padding: 0px;
+  color: black;
 }
 a {
   text-decoration: none;
@@ -20,7 +21,7 @@ footer {
   background-color: #f2f2f2;
   font-size: 14px;
   font-family: arial;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
   padding: 15px;
 
@@ -43,6 +44,7 @@ ul {
 input {
   width: 600px;
   height: 35px;
+  font-size: 16px;
 }
 .google {
   margin-top: 20px;
@@ -89,6 +91,28 @@ a {
   color: #818486
   font-size: 10px;
 }
-.footer {
-  position: absolute;
+.table {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: color: #660099;
+}
+tr {
+  color: #1a0dab;
+  font-size: 14px;
+  font-weight: bold;
+}
+th {
+  color: black;
+  font-size: 16px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+td {
+  padding-top: 5px;
+  padding-right: 10px;
+}
+.google-results {
+  height: 75px;
+  padding-bottom: 60px;
+  padding-left: 120px;
 }
